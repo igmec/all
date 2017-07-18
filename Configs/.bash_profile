@@ -13,6 +13,7 @@ alias mech='git config user.email "igor_mech@hotmail.com"; git config user.email
 alias mec='git config user.email "igor_mec@hotmail.com"; git config user.email'
 alias dev="cd ~/Documents/Dev/; ls -al"
 alias devp="cd ~/Documents/Dev/igmec/; ls -al"
+alias l="ls -al"
 alias c="cd"
 alias cfg="~/Documents/Dev/igmec/Configs/Scripts/copyConfigs.bat"
 alias idle="/c/Python3/Python36/Lib/idlelib/idle.bat"
