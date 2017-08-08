@@ -1,6 +1,6 @@
 import os, shutil, pprint, re, sys, datetime, time, pprint
 
-os.chdir('C:\\Users\\Igor\\Desktop\\Camera\\')
+os.chdir('C:\\Users\\Igor\\Desktop\\Camera\\Camera\\')
 cwd = os.getcwd()
 
 fileList = os.listdir(cwd)
@@ -63,6 +63,6 @@ for file in fileList:
         print('Error: %s' %e)
         notAdded.append(file)
             
-print('Copied ' + filesCopied + ' out of ' + numFiles+'\nNot copied:')
+print('Copied ' + str(filesCopied) + ' out of ' + str(numFiles)+'\nNot copied:')
 pprint.pprint(notAdded)
 sys.exit(0)
