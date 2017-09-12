@@ -51,6 +51,11 @@ def rollDie(oneOrTwo=1):
 
 
 def canHit(bonus=100, precisionLvl=15, roll=1, doubleRoll=False):
+
+    #Change algorithm to rely more on the die roll rather than skill
+    #Preclvl should make chance of hitting 20-60%, die roll adds another 35%
+    #Double bonus stays at 5%
+    
     #base chance of hitting is 1 in 5 or 200/1000
     #Roll of die (1-6) makes possible hit percentage 20-40% or 200-400/1000
     chance = int(200*(((roll-1)*0.2)+1))
