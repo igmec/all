@@ -1,1 +1,22 @@
 *.jpg
+
+################################
+#### Unreal generated files ####
+################################
+  
+/UnrealCourse/Section3/BuildingEscape/Build/
+/UnrealCourse/Section3/BuildingEscape/Binaries
+/UnrealCourse/Section3/BuildingEscape/DerivedDataCache
+/UnrealCourse/Section3/BuildingEscape/Intermediate
+/UnrealCourse/Section3/BuildingEscape/Saved
+/UnrealCourse/Section3/BuildingEscape/Content/StarterContent/
+
+*_BuiltData.uasset
+
+
+
+
+###########################
+### VS  generated files ###
+###########################
+*.VC.db
