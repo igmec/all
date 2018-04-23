@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Javascript</title>
+	</head>
+
+
+
+	<body>
+
+		<!-- COMMENTED OUT TO AVOID JS COLLISIONS
+
+		<button onclick="alert('Hi')">Click me!</button>
+		====
+		<p id="text">Hello World!</p>
+		document.getElementById('text').innerHTML = "Goodbye World!";
+
+		-->
+
+		<p id="text">Hello World!</p>
+		<button id="buttone">Change text</button>
+
+
+		<p id="paratwo">Javascript is ...</p>
+		<button id="para2button">Append text</button>		
+
+
+		<p id="empty"></p>
+		<button id="makeText">Create text</button>
+
+
+		<p id="moreText">This is some text</p>
+		<button id="styleButton">Style Text</button>
+		<button id="vanish">Vanish</button>
+
+
+
+
+
+
+
+		<script type="text/javascript">
+			
+			document.getElementById("buttone").onclick = function() {
+
+				if (document.getElementById("text").innerHTML == "Hello World!"){
+					document.getElementById("text").innerHTML = "Goodbye World!";
+				}else{
+					document.getElementById("text").innerHTML = "Hello World!";
+				}
+			}
+			
+			document.getElementById("para2button").onclick = function() {
+				document.getElementById("paratwo").innerHTML = document.getElementById("paratwo").innerHTML + "awesome";
+			}
+
+
+			document.getElementById("makeText").onclick = function() {
+				document.getElementById("empty").innerHTML = document.getElementById("empty").innerHTML + "<h1>You made some text!</h1>";
+			}
+
+
+
+			document.getElementById("styleButton").onclick = function() {
+				document.getElementById("moreText").style.color = "red";
+				document.getElementById("moreText").style.fontSize = "50px";
+			}
+
+			document.getElementById("vanish").onclick = function() {
+				document.getElementById("moreText").style.display = "none";
+			}
+
+			
+		</script>
+
+	</body>
+
+
+</html>

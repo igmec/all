@@ -1,0 +1,35 @@
+/*
+-----------OUTLINE-----------
+- guess the isogram game (word with no repeating letters)
+- limited guesses
+- after each guess, computer outputs:
+	- bull = right letter in right place
+	- cow right letter in place
+- win by guessing word before running out of guesses
+
+-----------REQUIREMENTS-----------
+
+---INPUTS---
+- plaintext in console/cmd
+
+---OUTPUTS---
+- BULL and COW ascii art for start of game
+- Brief explanation of game
+- each turn:
+	- the guess you are on out of total guesses
+	- resulting amount of bulls and cows
+	- the length of the word to guess
+- at the end of the game:
+	- player wins: That's right, XXXXXX was the word!
+	- player loses: Sorry, you're out of guesses!
+	- Play again?
+
+---TASKS FOR PLAYER---
+- guess the word of the given length
+- Enter difficulty at the start(future)
+
+---ASSETS---
+- ASCII art for bull and cow
+
+
+*/

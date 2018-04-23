@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Javascript</title>
+	
+		<style type="text/css">
+			
+			.circle {
+
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				float: left;
+				margin: 20px;
+			}
+
+			#r {
+				background-color: #db3939;
+			}
+
+			#b {
+				background-color: #5160e2;
+			}
+
+			#y {
+				background-color: #ebeda6;
+			}
+
+		</style>
+
+	</head>
+
+
+
+	<body>
+		
+		<div class="circle" id="r"></div>
+		<div class="circle" id="b"></div>
+		<div class="circle" id="y"></div>
+
+
+		<script type="text/javascript">
+			
+			var red = document.getElementById('r');
+			var blue = document.getElementById('b');
+			var yellow = document.getElementById('y');
+
+			red.onclick = function() { red.style.visibility = "hidden";}
+			blue.onclick = function() { blue.style.visibility = "hidden";}
+			yellow.onclick = function() { yellow.style.visibility = "hidden";}
+			
+
+		</script>
+
+	</body>
+
+
+</html>
